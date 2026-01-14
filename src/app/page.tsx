@@ -1,37 +1,40 @@
 export default function Home() {
   return (
     <main>
-      {/* Hero Section - 2 Column Layout */}
-      <section className="min-h-screen flex flex-col md:flex-row">
-        {/* Left: Title & Info */}
-        <div className="w-full md:w-1/3 p-8 md:p-12 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 text-[#2b4c7e]">
-            LIVE<br />
-            PIXEL<br />
-            MARKET
-          </h1>
-          <p className="text-[#e63946] font-bold text-2xl mb-4">점집</p>
-
-          <div className="space-y-1 mb-8 text-[#2b4c7e]">
-            <p>2025.04 (예정)</p>
-            <p>용산 인근</p>
-            <p>10:00 - 18:00</p>
-            <p>입장료 ₩10,000</p>
-          </div>
-
-          <p className="leading-relaxed text-gray-700">
-            형형색색의 간판, 오고가는 대화 소리, 울려 퍼지는 멜로디.
-            비밀스러운 골목길을 따라 걸으면 펼쳐지는 특별한 시장.
-            점과 점이 모여 만들어낸 작은 세계들이 당신을 기다립니다.
-          </p>
+      {/* Hero Section - Full Width Image with Overlay */}
+      <section className="relative min-h-screen w-full">
+        {/* Background Image */}
+        <div className="absolute inset-0 bg-[#2b4c7e] flex items-center justify-center">
+          <span className="text-[#f5e6a3] text-sm">메인 비주얼 이미지</span>
         </div>
 
-        {/* Right: Hero Image Placeholder */}
-        <div className="w-full md:w-2/3 bg-[#2b4c7e] flex items-center justify-center min-h-[400px] md:min-h-0">
-          <div className="text-center p-8">
-            <div className="w-full max-w-lg aspect-video bg-[#1a3a5c] border-4 border-[#f5e6a3] flex items-center justify-center">
-              <span className="text-[#f5e6a3] text-sm">메인 비주얼 이미지</span>
+        {/* Overlay Content */}
+        <div className="relative z-10 min-h-screen flex flex-col justify-between p-8 md:p-12">
+          {/* Top Left - Title */}
+          <div className="text-left">
+            <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-none text-white drop-shadow-lg">
+              LIVE<br />
+              PIXEL<br />
+              MARKET
+            </h1>
+            <p className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#f5e6a3] mt-4 drop-shadow-lg">
+              점집
+            </p>
+          </div>
+
+          {/* Bottom Right - Info */}
+          <div className="text-right text-white">
+            <div className="space-y-1 mb-6">
+              <p className="text-xl md:text-2xl">2025.04 (예정)</p>
+              <p className="text-xl md:text-2xl">용산 인근</p>
+              <p className="text-xl md:text-2xl">10:00 - 18:00</p>
+              <p className="text-xl md:text-2xl">입장료 ₩10,000</p>
             </div>
+
+            <p className="leading-relaxed max-w-md ml-auto text-white/80">
+              형형색색의 간판, 오고가는 대화 소리, 울려 퍼지는 멜로디.
+              비밀스러운 골목길을 따라 걸으면 펼쳐지는 특별한 시장.
+            </p>
           </div>
         </div>
       </section>
