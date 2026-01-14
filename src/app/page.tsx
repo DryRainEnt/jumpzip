@@ -37,7 +37,7 @@ export default function Home() {
       </section>
 
       {/* What is Pixel Art */}
-      <section className="p-8 md:p-12">
+      <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-xl">
           <h2 className="section-title">WHAT IS PIXELART?</h2>
           <p className="section-subtitle">픽셀아트란?</p>
