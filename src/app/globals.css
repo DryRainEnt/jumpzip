@@ -1,12 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --pixel-yellow: #facc15;
-  --pixel-blue: #3b82f6;
-  --pixel-pink: #ec4899;
-  --pixel-green: #22c55e;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --accent: #e74c3c;
+  --border: #ddd;
+  --muted: #666;
 }
 
 @theme inline {
@@ -17,64 +16,70 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.8;
 }
 
-/* 픽셀 텍스트 스타일 */
-.pixel-text {
-  font-family: "DungGeunMo", "Galmuri11", monospace;
-  letter-spacing: 0.05em;
-  image-rendering: pixelated;
+/* 링크 스타일 */
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-/* 픽셀 박스 스타일 */
-.pixel-box {
-  border: 4px solid var(--pixel-yellow);
-  background: rgba(0, 0, 0, 0.8);
-  box-shadow:
-    4px 4px 0 var(--pixel-yellow),
-    -2px -2px 0 rgba(250, 204, 21, 0.3) inset;
+a:hover {
+  opacity: 0.7;
 }
 
-/* 구획별 색상 */
-.zone-art {
-  --zone-color: var(--pixel-pink);
+/* 섹션 구분선 */
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 3rem 0;
 }
 
-.zone-game {
-  --zone-color: var(--pixel-blue);
+/* 그리드 썸네일 */
+.booth-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 8px;
 }
 
-.zone-rest {
-  --zone-color: var(--pixel-green);
+.booth-thumb {
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  transition: transform 0.2s;
 }
 
-/* 픽셀 애니메이션 */
-@keyframes pixel-blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.7; }
+.booth-thumb:hover {
+  transform: scale(1.05);
 }
 
-.pixel-blink {
-  animation: pixel-blink 1s step-end infinite;
+/* 참가자 카드 */
+.exhibitor-card {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border);
 }
 
-/* 스크롤바 스타일 */
+.exhibitor-card:last-child {
+  border-bottom: none;
+}
+
+/* 스크롤바 */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--pixel-yellow);
-  border: 2px solid #1a1a1a;
+  background: #ccc;
 }
 
-/* 선택 스타일 */
+/* 선택 */
 ::selection {
-  background: var(--pixel-yellow);
-  color: black;
+  background: var(--accent);
+  color: white;
 }
