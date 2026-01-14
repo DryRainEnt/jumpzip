@@ -30,7 +30,7 @@ export default function Home() {
           {/* Bottom Right - Info */}
           <div className="text-right text-white">
             <div className="space-y-1 mb-6">
-              <p className="text-xl md:text-2xl">2025.04 (예정)</p>
+              <p className="text-xl md:text-2xl">2026.04.25 - 26</p>
               <p className="text-xl md:text-2xl">용산 인근</p>
               <p className="text-xl md:text-2xl">10:00 - 18:00</p>
               <p className="text-xl md:text-2xl">입장료 ₩10,000</p>
