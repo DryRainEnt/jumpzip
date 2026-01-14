@@ -12,7 +12,7 @@ export default function Home() {
         <div className="relative z-10 min-h-screen flex flex-col justify-between py-8 md:py-12 px-8 md:px-24 lg:px-32">
           {/* Top Left - Title */}
           <div className="text-left">
-            <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-white/80 leading-tight drop-shadow-lg">
+            <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white/80 leading-[0.85] drop-shadow-lg">
               LIVE<br />
               PIXEL<br />
               MARKET
