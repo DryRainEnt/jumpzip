@@ -9,7 +9,7 @@ export default function Home() {
         </div>
 
         {/* Overlay Content */}
-        <div className="relative z-10 min-h-screen flex flex-col justify-between p-8 md:p-12">
+        <div className="relative z-10 min-h-screen flex flex-col justify-between py-8 md:py-12 px-8 md:px-24 lg:px-32">
           {/* Top Left - Title */}
           <div className="text-left">
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-none text-white drop-shadow-lg">
