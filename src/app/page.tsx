@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* What is Pixel Art */}
       <section className="p-8 md:p-12 flex justify-center">
-        <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-start">
+        <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-center">
           <div className="flex-1">
             <h2 className="section-title">WHAT IS PIXELART?</h2>
             <p className="section-subtitle">픽셀아트란?</p>
