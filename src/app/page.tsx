@@ -38,20 +38,17 @@ export default function Home() {
 
       {/* What is Pixel Art */}
       <section className="p-8 md:p-12">
-        <h2 className="section-title">WHAT IS PIXELART?</h2>
-        <p className="section-subtitle">픽셀아트란?</p>
+        <div className="max-w-xl">
+          <h2 className="section-title">WHAT IS PIXELART?</h2>
+          <p className="section-subtitle">픽셀아트란?</p>
 
-        <div className="content-box flex flex-col md:flex-row gap-8">
-          <div className="flex-1">
-            <p className="text-sm leading-relaxed">
+          <div className="content-box">
+            <p className="leading-relaxed">
               픽셀아트(도트 그림)는 작은 점(픽셀)을 하나하나 찍어 만드는 디지털 아트입니다.
               비디오 게임 문화와 함께 태어났으며, 하드웨어의 제약 속에서 발전해왔습니다.
               오늘날에는 기술적 제한을 넘어 하나의 예술 장르로 자리잡아,
               일러스트레이션, 애니메이션, 게임, 굿즈 등 다양한 분야에서 활용되고 있습니다.
             </p>
-          </div>
-          <div className="w-full md:w-48 h-48 bg-[#2b4c7e] flex items-center justify-center flex-shrink-0">
-            <span className="text-[#f5e6a3] text-xs">이미지</span>
           </div>
         </div>
       </section>
