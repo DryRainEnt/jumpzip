@@ -1,68 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #1a1a1a;
-  --accent: #e74c3c;
-  --border: #ddd;
-  --muted: #666;
+  --bg-blue: #0b0b9d;
+  --white: #ffffff;
+  --yellow: #f5d442;
+  --red: #e74c3c;
+  --text-dark: #1a1a1a;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--bg-blue);
+  --color-foreground: var(--white);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.8;
+  background: var(--bg-blue);
+  color: var(--white);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
 }
 
-/* 링크 스타일 */
+/* 흰색 콘텐츠 박스 */
+.content-box {
+  background: var(--white);
+  color: var(--text-dark);
+  padding: 2rem;
+}
+
+/* 섹션 타이틀 */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+
+/* 전시자 그리드 */
+.exhibitor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 4px;
+}
+
+.exhibitor-thumb {
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* 링크 */
 a {
   color: inherit;
   text-decoration: none;
 }
 
 a:hover {
-  opacity: 0.7;
-}
-
-/* 섹션 구분선 */
-.section-divider {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 3rem 0;
-}
-
-/* 그리드 썸네일 */
-.booth-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-  gap: 8px;
-}
-
-.booth-thumb {
-  aspect-ratio: 1;
-  object-fit: cover;
-  border: 1px solid var(--border);
-  transition: transform 0.2s;
-}
-
-.booth-thumb:hover {
-  transform: scale(1.05);
-}
-
-/* 참가자 카드 */
-.exhibitor-card {
-  padding: 2rem 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.exhibitor-card:last-child {
-  border-bottom: none;
+  opacity: 0.8;
 }
 
 /* 스크롤바 */
@@ -71,15 +71,14 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: var(--bg-blue);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ccc;
+  background: var(--yellow);
 }
 
-/* 선택 */
 ::selection {
-  background: var(--accent);
-  color: white;
+  background: var(--yellow);
+  color: var(--bg-blue);
 }
