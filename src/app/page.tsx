@@ -5,21 +5,21 @@ export default function Home() {
       <section className="min-h-screen flex flex-col md:flex-row">
         {/* Left: Title & Info */}
         <div className="w-full md:w-1/3 p-8 md:p-12 flex flex-col justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6 text-[#2b4c7e]">
             LIVE<br />
             PIXEL<br />
             MARKET
           </h1>
-          <p className="text-yellow-400 font-bold mb-4">점집</p>
+          <p className="text-[#e63946] font-bold text-xl mb-4">점집</p>
 
-          <div className="text-sm space-y-1 mb-8">
+          <div className="text-sm space-y-1 mb-8 text-[#2b4c7e]">
             <p>2025.04 (예정)</p>
             <p>용산 인근</p>
             <p>10:00 - 18:00</p>
             <p>입장료 ₩10,000</p>
           </div>
 
-          <p className="text-sm leading-relaxed opacity-90">
+          <p className="text-sm leading-relaxed text-gray-700">
             형형색색의 간판, 오고가는 대화 소리, 울려 퍼지는 멜로디.
             비밀스러운 골목길을 따라 걸으면 펼쳐지는 특별한 시장.
             점과 점이 모여 만들어낸 작은 세계들이 당신을 기다립니다.
@@ -27,10 +27,10 @@ export default function Home() {
         </div>
 
         {/* Right: Hero Image Placeholder */}
-        <div className="w-full md:w-2/3 bg-[#1a1a8a] flex items-center justify-center min-h-[400px] md:min-h-0">
+        <div className="w-full md:w-2/3 bg-[#2b4c7e] flex items-center justify-center min-h-[400px] md:min-h-0">
           <div className="text-center p-8">
-            <div className="w-full max-w-lg aspect-video bg-[#2a2a9a] border-4 border-yellow-400 flex items-center justify-center">
-              <span className="text-yellow-400 text-sm">메인 비주얼 이미지</span>
+            <div className="w-full max-w-lg aspect-video bg-[#1a3a5c] border-4 border-[#f5e6a3] flex items-center justify-center">
+              <span className="text-[#f5e6a3] text-sm">메인 비주얼 이미지</span>
             </div>
           </div>
         </div>
@@ -50,8 +50,8 @@ export default function Home() {
               일러스트레이션, 애니메이션, 게임, 굿즈 등 다양한 분야에서 활용되고 있습니다.
             </p>
           </div>
-          <div className="w-full md:w-48 h-48 bg-gray-200 flex items-center justify-center flex-shrink-0">
-            <span className="text-gray-400 text-xs">이미지</span>
+          <div className="w-full md:w-48 h-48 bg-[#2b4c7e] flex items-center justify-center flex-shrink-0">
+            <span className="text-[#f5e6a3] text-xs">이미지</span>
           </div>
         </div>
       </section>
@@ -68,10 +68,10 @@ export default function Home() {
               <div className="grid grid-cols-4 gap-1 mb-4">
                 {/* Zone Labels */}
                 <div className="col-span-4 grid grid-cols-4 gap-1 text-center text-xs font-bold mb-2">
-                  <span className="text-pink-500">G</span>
-                  <span className="text-blue-500">N</span>
-                  <span className="text-green-500">B</span>
-                  <span className="text-yellow-600">R</span>
+                  <span className="text-[#e63946]">G</span>
+                  <span className="text-[#2b4c7e]">N</span>
+                  <span className="text-green-600">B</span>
+                  <span className="text-amber-600">R</span>
                 </div>
                 {/* Placeholder booth grid */}
                 {Array.from({ length: 24 }).map((_, i) => (
@@ -87,19 +87,19 @@ export default function Home() {
             {/* Zone Legend */}
             <div className="w-full md:w-48 space-y-3 text-sm">
               <div className="flex items-center gap-2">
-                <span className="w-4 h-4 bg-pink-500"></span>
+                <span className="w-4 h-4 bg-[#e63946]"></span>
                 <span><strong>[G]</strong> 그림판</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="w-4 h-4 bg-blue-500"></span>
+                <span className="w-4 h-4 bg-[#2b4c7e]"></span>
                 <span><strong>[N]</strong> 놀자판</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="w-4 h-4 bg-green-500"></span>
+                <span className="w-4 h-4 bg-green-600"></span>
                 <span><strong>[B]</strong> 게시판</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="w-4 h-4 bg-yellow-500"></span>
+                <span className="w-4 h-4 bg-amber-500"></span>
                 <span><strong>[R]</strong> 휴식</span>
               </div>
             </div>
@@ -121,8 +121,8 @@ export default function Home() {
               { time: "17:00", name: "클로징" },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-4 py-2 border-b border-gray-100 last:border-0">
-                <span className="text-sm font-mono w-16">{item.time}</span>
-                <div className="w-12 h-12 bg-gray-200"></div>
+                <span className="text-sm font-mono w-16 text-[#2b4c7e] font-bold">{item.time}</span>
+                <div className="w-12 h-12 bg-[#2b4c7e]"></div>
                 <span className="text-sm">{item.name}</span>
               </div>
             ))}
@@ -141,14 +141,14 @@ export default function Home() {
           {Array.from({ length: 30 }).map((_, i) => (
             <div
               key={i}
-              className="aspect-square bg-white hover:opacity-80 transition-opacity cursor-pointer flex items-center justify-center"
+              className="aspect-square bg-white hover:opacity-80 transition-opacity cursor-pointer flex items-center justify-center border border-gray-200"
             >
               <span className="text-gray-300 text-xs">#{String(i + 1).padStart(2, '0')}</span>
             </div>
           ))}
         </div>
 
-        <p className="text-center text-sm mt-8 opacity-70">
+        <p className="text-center text-sm mt-8 text-[#2b4c7e]">
           2025년 1월 전시자 모집 예정
         </p>
       </section>
@@ -161,7 +161,7 @@ export default function Home() {
         <div className="flex items-center gap-4">
           <a
             href="#"
-            className="inline-flex items-center gap-2 bg-red-500 text-white px-4 py-2 text-sm font-bold hover:bg-red-600 transition-colors"
+            className="inline-flex items-center gap-2 bg-[#e63946] text-white px-4 py-2 text-sm font-bold hover:opacity-90 transition-opacity"
           >
             X (Twitter)
           </a>
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="p-8 md:p-12 text-center text-sm opacity-70">
+      <footer className="p-8 md:p-12 text-center text-sm text-[#2b4c7e]">
         <p>© 2025 점집 - Live Pixel Market</p>
       </footer>
     </main>
