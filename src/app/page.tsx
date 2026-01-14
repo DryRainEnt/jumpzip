@@ -37,11 +37,11 @@ export default function Home() {
             </div>
 
             <p className="leading-relaxed max-w-md ml-auto text-white/80">
-              형형색색의 간판,<br />
-              오고가는 대화 소리,<br />
-              울려 퍼지는 멜로디.<br />
+              형형색색의 간판<br />
+              오고가는 대화 소리<br />
+              울려 퍼지는 멜로디<br />
               비밀스러운 골목길을 따라 걸으면<br />
-              펼쳐지는 특별한 시장.
+              펼쳐지는 특별한 시장
             </p>
           </div>
         </div>
