@@ -54,77 +54,21 @@ export default function Home() {
       </section>
 
       {/* Hall Map */}
-      <section className="p-8 md:p-12">
-        <h2 className="section-title">HALL MAP</h2>
-        <p className="section-subtitle">회장 맵</p>
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-md w-full">
+          <h2 className="section-title">HALL MAP</h2>
+          <p className="section-subtitle">회장 맵</p>
 
-        <div className="content-box">
-          <div className="flex flex-col md:flex-row gap-8">
-            {/* Map Grid */}
-            <div className="flex-1">
-              <div className="grid grid-cols-4 gap-1 mb-4">
-                {/* Zone Labels */}
-                <div className="col-span-4 grid grid-cols-4 gap-1 text-center font-bold mb-2">
-                  <span className="text-[#e63946]">G</span>
-                  <span className="text-[#2b4c7e]">N</span>
-                  <span className="text-green-600">B</span>
-                  <span className="text-amber-600">R</span>
-                </div>
-                {/* Placeholder booth grid */}
-                {Array.from({ length: 24 }).map((_, i) => (
-                  <div
-                    key={i}
-                    className="aspect-square bg-gray-200 hover:bg-gray-300 transition-colors cursor-pointer"
-                  />
-                ))}
-              </div>
-              <p className="text-gray-500">전시자 확정 후 공개</p>
+          <div className="content-box">
+            <div className="flex gap-4 mb-4">
+              <span className="text-[#e63946]">[G] 그림판</span>
+              <span className="text-[#2b4c7e]">[N] 놀자판</span>
+              <span className="text-green-600">[B] 게시판</span>
             </div>
-
-            {/* Zone Legend */}
-            <div className="w-full md:w-64 space-y-3">
-              <div className="flex items-center gap-2">
-                <span className="w-5 h-5 bg-[#e63946]"></span>
-                <span><strong>[G]</strong> 그림판</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-5 h-5 bg-[#2b4c7e]"></span>
-                <span><strong>[N]</strong> 놀자판</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-5 h-5 bg-green-600"></span>
-                <span><strong>[B]</strong> 게시판</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="w-5 h-5 bg-amber-500"></span>
-                <span><strong>[R]</strong> 휴식</span>
-              </div>
+            <div className="bg-gray-100 border border-gray-200 p-8 text-center text-gray-400">
+              전시자 확정 후 공개
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Live Schedule */}
-      <section className="p-8 md:p-12">
-        <h2 className="section-title">LIVE</h2>
-        <p className="section-subtitle">라이브</p>
-
-        <div className="content-box">
-          <div className="space-y-4">
-            {[
-              { time: "11:00", name: "오프닝" },
-              { time: "13:00", name: "게스트 토크" },
-              { time: "15:00", name: "라이브 드로잉" },
-              { time: "17:00", name: "클로징" },
-            ].map((item, i) => (
-              <div key={i} className="flex items-center gap-4 py-2 border-b border-gray-100 last:border-0">
-                <span className="font-mono w-20 text-[#2b4c7e] font-bold">{item.time}</span>
-                <div className="w-14 h-14 bg-[#2b4c7e]"></div>
-                <span>{item.name}</span>
-              </div>
-            ))}
-          </div>
-          <p className="text-gray-400 mt-4">* 일정은 변경될 수 있습니다</p>
         </div>
       </section>
 
@@ -134,13 +78,13 @@ export default function Home() {
         <p className="section-subtitle">전시자</p>
 
         {/* Exhibitor Grid */}
-        <div className="exhibitor-grid">
-          {Array.from({ length: 30 }).map((_, i) => (
-            <div
-              key={i}
-              className="aspect-square bg-white hover:opacity-80 transition-opacity cursor-pointer flex items-center justify-center border border-gray-200"
-            >
-              <span className="text-gray-300 text-sm">#{String(i + 1).padStart(2, '0')}</span>
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+          {Array.from({ length: 24 }).map((_, i) => (
+            <div key={i} className="flex flex-col items-center">
+              <div className="w-full aspect-square bg-white border border-gray-200 mb-2 flex items-center justify-center">
+                <span className="text-gray-300 text-xs">IMG</span>
+              </div>
+              <span className="text-sm text-center truncate w-full">전시자{i + 1}</span>
             </div>
           ))}
         </div>
