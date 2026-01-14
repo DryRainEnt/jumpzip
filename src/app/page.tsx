@@ -20,7 +20,7 @@ export default function Home() {
             <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold leading-none text-[#f5e6a3] drop-shadow-lg mt-4">
               점집
             </h1>
-            <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-white/80 mt-2 drop-shadow-lg">
+            <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white/80 mt-2 drop-shadow-lg">
               JUMPZIP
             </p>
           </div>
