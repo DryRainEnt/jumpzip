@@ -33,7 +33,7 @@ export default function KakaoMap() {
     loadKakaoSDK().then(() => {
       if (!mapRef.current) return;
 
-      const coords = new window.kakao.maps.LatLng(37.53430, 126.99391);
+      const coords = new window.kakao.maps.LatLng(37.53430, 126.993181);
       const map = new window.kakao.maps.Map(mapRef.current, {
         center: coords,
         level: 3,
