@@ -56,15 +56,44 @@ export default function Home() {
 
             <div className="content-box">
               <p className="leading-relaxed">
-                픽셀아트(도트 그림)는 작은 점(픽셀)을 하나하나 찍어 만드는 디지털 아트입니다.
-                비디오 게임 문화와 함께 태어났으며, 하드웨어의 제약 속에서 발전해왔습니다.
-                오늘날에는 기술적 제한을 넘어 하나의 예술 장르로 자리잡아,
-                일러스트레이션, 애니메이션, 게임, 굿즈 등 다양한 분야에서 활용되고 있습니다.
+                픽셀아트는 대상을 최소한의 격자 단위로 표현하는 디지털 아트입니다.
+                담아내는 것보다 덜어내는 것이 더 많기에,
+                남겨진 빈자리는 보는 사람의 상상력이 채웁니다.
+              </p>
+              <p className="leading-relaxed mt-4">
+                비디오게임의 리소스에서 출발했지만,
+                지금은 그 용도를 넘어 독립적인 창작으로 확장되고 있습니다.
               </p>
             </div>
           </div>
           <div className="w-40 h-40 bg-white border border-gray-200 flex items-center justify-center flex-shrink-0">
             <span className="text-gray-300 text-sm">IMG</span>
+          </div>
+        </div>
+      </section>
+
+      {/* About JUMPZIP */}
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <h2 className="section-title">ABOUT JUMPZIP</h2>
+          <p className="section-subtitle">점집이란?</p>
+
+          <div className="content-box">
+            <p className="leading-relaxed">
+              용도가 분명했던 창작물을 전시하려면 어디로 가야 할까요.
+              박물관일까요, 미술관일까요.
+              점집은 다른 답을 제안합니다. 장터입니다.
+            </p>
+            <p className="leading-relaxed mt-4">
+              점집은 픽셀아트를 전시하는 데서 멈추지 않습니다.
+              굿즈로 만들고, 사고, 건네고, 가져갑니다.
+              상상력으로 완성되는 창작물이
+              다시 그 상상력의 주인인 관객에게 전달될 때,
+              작품은 또 한 번 완성됩니다.
+            </p>
+            <p className="leading-relaxed mt-4">
+              그래서 점집은 전시이면서, 동시에 장터입니다.
+            </p>
           </div>
         </div>
       </section>
