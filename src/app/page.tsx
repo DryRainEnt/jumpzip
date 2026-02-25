@@ -68,7 +68,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="w-64 flex items-center justify-center flex-shrink-0">
+          <div className="w-56 flex items-center justify-center flex-shrink-0">
             <img src="/Drawing_169_3.png" alt="점집 캐릭터" className="w-full object-contain" style={{ imageRendering: 'pixelated' }} />
           </div>
         </div>
