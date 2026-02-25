@@ -127,22 +127,25 @@ export default function Home() {
       </section>
 
       {/* Exhibitors */}
-      <section className="p-8 md:p-12">
-        <h2 className="section-title">전시자</h2>
-        <p className="section-subtitle">EXHIBITORS</p>
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <h2 className="section-title">전시자</h2>
+          <p className="section-subtitle">EXHIBITORS</p>
 
-        <div className="text-center">
-          <p className="text-[#2b4c7e] mb-6">
-            2026년 2-3월 전시자 모집 중
-          </p>
-          <a
-            href="https://forms.gle/6skgrpthuwPCDfhG7"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#2b4c7e] text-[#f5e6a3] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
-          >
-            전시 참가 신청하기
-          </a>
+          <div className="text-center">
+            <p className="text-[#2b4c7e] mb-6">
+              2026년 2-3월 전시자 모집 중
+            </p>
+            <a
+              href="https://forms.gle/6skgrpthuwPCDfhG7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              style={{ color: '#f5e6a3' }}
+            >
+              전시 참가 신청하기
+            </a>
+          </div>
         </div>
       </section>
 
