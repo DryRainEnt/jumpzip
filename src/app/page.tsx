@@ -147,7 +147,9 @@ export default function Home() {
 
             <div className="flex items-center gap-4">
               <a
-                href="#"
+                href="https://x.com/JumpZipOfficial"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#e63946] text-white px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               >
                 X (Twitter)
