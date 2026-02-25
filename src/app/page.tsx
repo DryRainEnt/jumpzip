@@ -131,21 +131,19 @@ export default function Home() {
         <h2 className="section-title">전시자</h2>
         <p className="section-subtitle">EXHIBITORS</p>
 
-        {/* Exhibitor Grid */}
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
-          {Array.from({ length: 24 }).map((_, i) => (
-            <div key={i} className="flex flex-col items-center">
-              <div className="w-full aspect-square bg-white border border-gray-200 mb-2 flex items-center justify-center">
-                <span className="text-gray-300 text-xs">IMG</span>
-              </div>
-              <span className="text-sm text-center truncate w-full">전시자{i + 1}</span>
-            </div>
-          ))}
+        <div className="text-center">
+          <p className="text-[#2b4c7e] mb-6">
+            2026년 2-3월 전시자 모집 중
+          </p>
+          <a
+            href="https://forms.gle/4vn6iSAjsEQgdDgK7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-[#2b4c7e] text-white px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+          >
+            전시 참가 신청하기
+          </a>
         </div>
-
-        <p className="text-center mt-8 text-[#2b4c7e]">
-          2026년 2-3월 전시자 모집 중
-        </p>
       </section>
 
       {/* Updates */}
