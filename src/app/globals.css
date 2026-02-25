@@ -32,9 +32,8 @@ body {
   line-height: 1.8;
 }
 
-/* 흰색 콘텐츠 박스 */
+/* 콘텐츠 박스 */
 .content-box {
-  background: var(--white);
   color: var(--text-dark);
   padding: 2rem;
 }
