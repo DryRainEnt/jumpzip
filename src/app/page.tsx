@@ -80,7 +80,11 @@ export default function Home() {
           <h2 className="section-title">점집이란?</h2>
           <p className="section-subtitle">ABOUT JUMPZIP</p>
 
-          <div className="content-box">
+          <div className="content-box flex flex-col md:flex-row gap-6 items-center">
+          <div className="w-56 flex items-center justify-center flex-shrink-0">
+            <img src="/Logo_t.png" alt="점집 로고" className="w-full object-contain" style={{ imageRendering: 'pixelated' }} />
+          </div>
+          <div>
             <p className="leading-relaxed">
               용도가 분명했던 창작물을 전시하려면 어디로 가야 할까요.
               박물관일까요, 미술관일까요.
@@ -96,6 +100,7 @@ export default function Home() {
             <p className="leading-relaxed mt-4">
               그래서 점집은 전시이면서, 동시에 장터입니다.
             </p>
+          </div>
           </div>
         </div>
       </section>
