@@ -167,8 +167,8 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="w-40 h-40 bg-white border border-gray-200 flex items-center justify-center flex-shrink-0">
-            <span className="text-gray-300 text-sm">IMG</span>
+          <div className="w-40 h-40 flex items-center justify-center flex-shrink-0">
+            <img src="/Logo.png" alt="점집 로고" className="w-full h-full object-contain" style={{ imageRendering: 'pixelated' }} />
           </div>
         </div>
       </section>
