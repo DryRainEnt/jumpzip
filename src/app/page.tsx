@@ -53,8 +53,8 @@ export default function Home() {
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-center">
           <div className="flex-1">
-            <h2 className="section-title">WHAT IS PIXELART?</h2>
-            <p className="section-subtitle">픽셀아트란?</p>
+            <h2 className="section-title">픽셀아트란?</h2>
+            <p className="section-subtitle">WHAT IS PIXELART?</p>
 
             <div className="content-box">
               <p className="leading-relaxed">
@@ -68,7 +68,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="w-80 flex items-center justify-center flex-shrink-0">
+          <div className="w-64 flex items-center justify-center flex-shrink-0">
             <img src="/Drawing_169_3.png" alt="점집 캐릭터" className="w-full object-contain" style={{ imageRendering: 'pixelated' }} />
           </div>
         </div>
@@ -77,8 +77,8 @@ export default function Home() {
       {/* About JUMPZIP */}
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
-          <h2 className="section-title">ABOUT JUMPZIP</h2>
-          <p className="section-subtitle">점집이란?</p>
+          <h2 className="section-title">점집이란?</h2>
+          <p className="section-subtitle">ABOUT JUMPZIP</p>
 
           <div className="content-box">
             <p className="leading-relaxed">
@@ -103,8 +103,8 @@ export default function Home() {
       {/* Hall Map */}
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
-          <h2 className="section-title">HALL MAP</h2>
-          <p className="section-subtitle">회장 맵</p>
+          <h2 className="section-title">회장 맵</h2>
+          <p className="section-subtitle">HALL MAP</p>
 
           <div className="content-box">
             <img src="/1289BUNKERx3.png" alt="회장 배치도 - B1F, B2F" className="w-full" style={{ imageRendering: 'pixelated' }} />
@@ -128,8 +128,8 @@ export default function Home() {
 
       {/* Exhibitors */}
       <section className="p-8 md:p-12">
-        <h2 className="section-title">EXHIBITORS</h2>
-        <p className="section-subtitle">전시자</p>
+        <h2 className="section-title">전시자</h2>
+        <p className="section-subtitle">EXHIBITORS</p>
 
         {/* Exhibitor Grid */}
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
@@ -152,8 +152,8 @@ export default function Home() {
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-start">
           <div className="flex-1">
-            <h2 className="section-title">UPDATES</h2>
-            <p className="section-subtitle">소식</p>
+            <h2 className="section-title">소식</h2>
+            <p className="section-subtitle">UPDATES</p>
 
             <div className="flex items-center gap-4">
               <a
