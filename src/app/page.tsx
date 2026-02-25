@@ -139,7 +139,7 @@ export default function Home() {
             href="https://forms.gle/4vn6iSAjsEQgdDgK7"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#2b4c7e] text-white px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 bg-[#2b4c7e] text-[#f5e6a3] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
           >
             전시 참가 신청하기
           </a>
