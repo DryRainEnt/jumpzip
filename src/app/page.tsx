@@ -87,8 +87,9 @@ export default function Home() {
           <p className="section-subtitle">ABOUT JUMPZIP</p>
 
           <div className="content-box flex flex-col md:flex-row gap-6 items-center">
-          <div className="w-56 flex items-center justify-center flex-shrink-0">
+          <div className="w-56 flex flex-col items-center flex-shrink-0">
             <img src="/Logo_t.png" alt="점집 로고" className="w-full object-contain" style={{ imageRendering: 'pixelated' }} />
+            <img src="/Logo_t-desc.png" alt="Logo by Bbungsik" className="w-full object-contain mt-2" style={{ imageRendering: 'pixelated' }} />
           </div>
           <div>
             <p className="leading-relaxed">
