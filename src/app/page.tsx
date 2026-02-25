@@ -41,7 +41,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl">2026.04.25 - 26</p>
               <p className="text-xl md:text-2xl">이태원 1289BUNKER</p>
               <p className="text-xl md:text-2xl">10:00 - 18:00</p>
-              <p className="text-xl md:text-2xl">입장료 ₩5,000</p>
+              <p className="text-xl md:text-2xl">입장료 ₩10,000</p>
             </div>
 
             <div className="max-w-md ml-auto text-white/80 space-y-1">
