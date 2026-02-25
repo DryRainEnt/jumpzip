@@ -134,7 +134,7 @@ export default function Home() {
         </div>
 
         <p className="text-center mt-8 text-[#2b4c7e]">
-          2025년 1월 전시자 모집 예정
+          2026년 2-3월 전시자 모집 중
         </p>
       </section>
 
@@ -164,7 +164,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="p-8 md:p-12 text-center text-[#2b4c7e]">
-        <p>© 2025 점집 - Live Pixel Market</p>
+        <p>© 2026 점집 - Live Pixel Market</p>
       </footer>
     </main>
   );
