@@ -4,24 +4,24 @@ export default function Home() {
       {/* Hero Section - Full Width Image with Overlay */}
       <section className="relative min-h-screen w-full">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-[#2b4c7e] flex items-center justify-center">
-          <span className="text-[#f5e6a3] text-sm">메인 비주얼 이미지</span>
+        <div className="absolute inset-0">
+          <img src="/DosaGirlLanding.png" alt="메인 비주얼" className="w-full h-full object-cover" />
         </div>
 
         {/* Overlay Content */}
         <div className="relative z-10 min-h-screen flex flex-col justify-between py-8 md:py-12 px-8 md:px-24 lg:px-32">
           {/* Top Left - Title */}
           <div className="text-left">
-            <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white/80 leading-[0.85] drop-shadow-lg">
+            <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.85] drop-shadow-lg">
               LIVE<br />
               PIXEL<br />
               MARKET
             </p>
             <div className="inline-block mt-4">
-              <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold leading-none text-[#f5e6a3] drop-shadow-lg">
+              <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold leading-none text-white drop-shadow-lg">
                 점집
               </h1>
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#f5e6a3] mt-2 drop-shadow-lg text-right">
+              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-2 drop-shadow-lg text-right">
                 JUMPZIP
               </p>
             </div>
@@ -33,7 +33,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl">2026.04.25 - 26</p>
               <p className="text-xl md:text-2xl">용산 인근</p>
               <p className="text-xl md:text-2xl">10:00 - 18:00</p>
-              <p className="text-xl md:text-2xl">입장료 ₩10,000</p>
+              <p className="text-xl md:text-2xl">입장료 ₩5,000</p>
             </div>
 
             <p className="leading-relaxed max-w-md ml-auto text-white/80">
