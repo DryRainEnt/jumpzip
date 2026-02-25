@@ -44,13 +44,13 @@ export default function Home() {
               <p className="text-xl md:text-2xl">입장료 ₩5,000</p>
             </div>
 
-            <p className="leading-relaxed max-w-md ml-auto text-white/80">
-              형형색색의 간판<br />
-              오고가는 대화 소리<br />
-              울려 퍼지는 멜로디<br />
-              비밀스러운 골목길을 따라 걸으면<br />
-              펼쳐지는 특별한 시장
-            </p>
+            <div className="max-w-md ml-auto text-white/80 space-y-1">
+              <p>형형색색의 간판</p>
+              <p>오고가는 대화 소리</p>
+              <p>울려 퍼지는 멜로디</p>
+              <p>비밀스러운 골목길을 따라 걸으면</p>
+              <p>펼쳐지는 특별한 시장</p>
+            </div>
           </div>
         </div>
       </section>
