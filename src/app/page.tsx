@@ -2,7 +2,13 @@ import KakaoMap from "./KakaoMap";
 
 export default function Home() {
   return (
-    <main>
+    <main className="relative">
+      {/* Left Stripes */}
+      <div className="fixed left-0 top-0 h-full z-50 flex">
+        <div className="w-2 md:w-3 bg-[#e63946]"></div>
+        <div className="w-2 md:w-3 bg-[#3da35d]"></div>
+        <div className="w-2 md:w-3 bg-[#4895ef]"></div>
+      </div>
       {/* Hero Section - Full Width Image with Overlay */}
       <section className="relative min-h-screen w-full">
         {/* Background Image */}
