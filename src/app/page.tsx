@@ -1,3 +1,5 @@
+import KakaoMap from "./KakaoMap";
+
 export default function Home() {
   return (
     <main>
@@ -31,7 +33,7 @@ export default function Home() {
           <div className="text-right text-white">
             <div className="space-y-1 mb-6">
               <p className="text-xl md:text-2xl">2026.04.25 - 26</p>
-              <p className="text-xl md:text-2xl">용산 인근</p>
+              <p className="text-xl md:text-2xl">이태원 1289BUNKER</p>
               <p className="text-xl md:text-2xl">10:00 - 18:00</p>
               <p className="text-xl md:text-2xl">입장료 ₩5,000</p>
             </div>
@@ -100,18 +102,15 @@ export default function Home() {
 
       {/* Hall Map */}
       <section className="p-8 md:p-12 flex justify-center">
-        <div className="max-w-md w-full">
+        <div className="max-w-3xl w-full">
           <h2 className="section-title">HALL MAP</h2>
           <p className="section-subtitle">회장 맵</p>
 
           <div className="content-box">
-            <div className="flex gap-4 mb-4">
-              <span className="text-[#e63946]">[G] 그림판</span>
-              <span className="text-[#2b4c7e]">[N] 놀자판</span>
-              <span className="text-green-600">[B] 게시판</span>
-            </div>
-            <div className="bg-gray-100 border border-gray-200 p-8 text-center text-gray-400">
-              전시자 확정 후 공개
+            <img src="/1289BUNKERx3.png" alt="회장 배치도 - B1F, B2F" className="w-full" style={{ imageRendering: 'pixelated' }} />
+            <div className="mt-4">
+              <p className="text-sm mb-3">서울 용산구 이태원로 174 지하 1층</p>
+              <KakaoMap />
             </div>
           </div>
         </div>
