@@ -136,7 +136,7 @@ export default function Home() {
             2026년 2-3월 전시자 모집 중
           </p>
           <a
-            href="https://forms.gle/4vn6iSAjsEQgdDgK7"
+            href="https://forms.gle/6skgrpthuwPCDfhG7"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#2b4c7e] text-[#f5e6a3] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
