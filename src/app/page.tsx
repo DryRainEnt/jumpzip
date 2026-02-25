@@ -109,7 +109,17 @@ export default function Home() {
           <div className="content-box">
             <img src="/1289BUNKERx3.png" alt="회장 배치도 - B1F, B2F" className="w-full" style={{ imageRendering: 'pixelated' }} />
             <div className="mt-4">
-              <p className="text-sm mb-3">서울 용산구 이태원로 174 지하 1층</p>
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                <p className="text-sm">서울 용산구 이태원로 174 지하 1층</p>
+                <a
+                  href="https://map.kakao.com/link/map/1289BUNKER,37.53430,126.993181"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-[#2b4c7e] hover:opacity-70 transition-opacity"
+                >
+                  카카오맵에서 보기 →
+                </a>
+              </div>
               <KakaoMap />
             </div>
           </div>
