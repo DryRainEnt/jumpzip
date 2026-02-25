@@ -68,8 +68,8 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="w-40 h-40 bg-white border border-gray-200 flex items-center justify-center flex-shrink-0">
-            <span className="text-gray-300 text-sm">IMG</span>
+          <div className="w-40 h-40 flex items-center justify-center flex-shrink-0">
+            <img src="/Drawing_169_3.png" alt="점집 캐릭터" className="w-full h-full object-contain" style={{ imageRendering: 'pixelated' }} />
           </div>
         </div>
       </section>
