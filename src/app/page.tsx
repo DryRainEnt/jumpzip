@@ -138,6 +138,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Funding */}
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <h2 className="section-title">후원</h2>
+          <p className="section-subtitle">FUNDING</p>
+
+          <div className="text-center">
+            <a
+              href="https://tumblbug.com/jumpzip"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              style={{ color: '#ffffff' }}
+            >
+              텀블벅 사전 알림 신청하기
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Exhibitors */}
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
