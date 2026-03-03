@@ -145,6 +145,7 @@ export default function Home() {
           <p className="section-subtitle">FUNDING</p>
 
           <div className="text-center">
+            <img src="/head_image.png" alt="점집 펀딩 포스터" className="w-full max-w-md mx-auto mb-6" style={{ imageRendering: 'pixelated' }} />
             <a
               href="https://tumblbug.com/jumpzip"
               target="_blank"
