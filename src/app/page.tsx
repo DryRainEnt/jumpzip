@@ -147,7 +147,7 @@ export default function Home() {
           <div className="text-center">
             <img src="/head_image.png" alt="점집 펀딩 포스터" className="w-full max-w-md mx-auto mb-6" style={{ imageRendering: 'pixelated' }} />
             <a
-              href="https://tumblbug.com/jumpzip"
+              href="https://tum.bg/WDKqih"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
