@@ -48,7 +48,7 @@ export default function Home() {
               <p>형형색색의 간판</p>
               <p>오고가는 대화 소리</p>
               <p>울려 퍼지는 멜로디</p>
-              <p>비밀스러운 골목길을 따라 걸으면</p>
+              <p>비밀스런 골목길 따라 걸으면</p>
               <p>펼쳐지는 특별한 시장</p>
             </div>
           </div>
@@ -153,7 +153,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#ffffff' }}
             >
-              텀블벅 사전 알림 신청하기
+              텀블벅 사전 알림 신청
             </a>
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#f5e6a3' }}
             >
-              전시 참가 신청하기
+              전시 참가 신청
             </a>
           </div>
         </div>
