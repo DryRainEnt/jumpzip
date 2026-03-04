@@ -43,7 +43,13 @@ body {
 /* 콘텐츠 박스 */
 .content-box {
   color: var(--text-dark);
-  padding: 2rem;
+  padding: 2rem 0.75rem 2rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .content-box {
+    padding: 2rem;
+  }
 }
 
 /* 섹션 타이틀 */
