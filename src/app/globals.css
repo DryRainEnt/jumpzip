@@ -28,16 +28,10 @@ body {
   background: var(--bg-cream);
   color: var(--text-dark);
   font-family: 'Suhgung', serif;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.8;
   word-break: keep-all;
   text-align: justify;
-}
-
-@media (min-width: 768px) {
-  body {
-    font-size: 22px;
-  }
 }
 
 /* 콘텐츠 박스 */
