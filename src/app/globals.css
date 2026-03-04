@@ -28,8 +28,15 @@ body {
   background: var(--bg-cream);
   color: var(--text-dark);
   font-family: 'Suhgung', serif;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.8;
+  word-break: keep-all;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 22px;
+  }
 }
 
 /* 콘텐츠 박스 */
