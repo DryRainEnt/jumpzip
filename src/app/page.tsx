@@ -56,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* What is Pixel Art */}
-      <section className="p-8 md:p-12 flex justify-center">
+      <section className="px-4 py-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-center">
           <div className="flex-1">
             <h2 className="section-title">픽셀아트란?</h2>
@@ -81,7 +81,7 @@ export default function Home() {
       </section>
 
       {/* About JUMPZIP */}
-      <section className="p-8 md:p-12 flex justify-center">
+      <section className="px-4 py-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
           <h2 className="section-title">점집이란?</h2>
           <p className="section-subtitle">ABOUT JUMPZIP</p>
@@ -113,7 +113,7 @@ export default function Home() {
       </section>
 
       {/* Hall Map */}
-      <section className="p-8 md:p-12 flex justify-center">
+      <section className="px-4 py-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
           <h2 className="section-title">회장 맵</h2>
           <p className="section-subtitle">HALL MAP</p>
@@ -139,7 +139,7 @@ export default function Home() {
       </section>
 
       {/* Funding */}
-      <section className="p-8 md:p-12 flex justify-center">
+      <section className="px-4 py-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
           <h2 className="section-title">후원</h2>
           <p className="section-subtitle">FUNDING</p>
@@ -160,7 +160,7 @@ export default function Home() {
       </section>
 
       {/* Exhibitors */}
-      <section className="p-8 md:p-12 flex justify-center">
+      <section className="px-4 py-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
           <h2 className="section-title">전시자</h2>
           <p className="section-subtitle">EXHIBITORS</p>
@@ -183,7 +183,7 @@ export default function Home() {
       </section>
 
       {/* Updates */}
-      <section className="p-8 md:p-12 flex justify-center">
+      <section className="px-4 py-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-start">
           <div className="flex-1">
             <h2 className="section-title">소식</h2>
@@ -207,7 +207,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="p-8 md:p-12 text-center text-[#2b4c7e]">
+      <footer className="px-4 py-8 md:p-12 text-center text-[#2b4c7e]">
         <p>© 2026 점집 - Live Pixel Market</p>
       </footer>
     </main>
