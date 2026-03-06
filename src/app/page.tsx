@@ -55,6 +55,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* CTA Bar */}
+      <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
+        <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-4">
+          <div className="flex-1 text-center">
+            <p className="text-sm text-[#2b4c7e] mb-2">신청 마감: ~3/16</p>
+            <a
+              href="https://forms.gle/6skgrpthuwPCDfhG7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              style={{ color: '#f5e6a3' }}
+            >
+              전시 참가 신청
+            </a>
+          </div>
+          <div className="flex-1 text-center">
+            <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
+            <a
+              href="https://tum.bg/WDKqih"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              style={{ color: '#ffffff' }}
+            >
+              텀블벅 사전 알림 신청
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* What is Pixel Art */}
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col md:flex-row gap-6 items-center">
