@@ -82,6 +82,18 @@ export default function Home() {
               텀블벅 사전 알림 신청
             </a>
           </div>
+          <div className="flex-1 text-center">
+            <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
+            <a
+              href="https://discord.gg/QUsmwz4E77"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#5865F2] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              style={{ color: '#ffffff' }}
+            >
+              디스코드 입장
+            </a>
+          </div>
         </div>
       </section>
 
