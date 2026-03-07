@@ -57,38 +57,38 @@ export default function Home() {
 
       {/* CTA Bar */}
       <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
-        <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-4">
-          <div className="flex-1 text-center">
+        <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-3">
+          <div className="text-center">
             <p className="text-sm text-[#2b4c7e] mb-2">신청 마감: ~3/16</p>
             <a
               href="https://forms.gle/6skgrpthuwPCDfhG7"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
               style={{ color: '#f5e6a3' }}
             >
               전시 참가 신청
             </a>
           </div>
-          <div className="flex-1 text-center">
+          <div className="text-center">
             <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
             <a
               href="https://tum.bg/WDKqih"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-[#e63946] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
               style={{ color: '#ffffff' }}
             >
               텀블벅 사전 알림 신청
             </a>
           </div>
-          <div className="flex-1 text-center">
+          <div className="text-center">
             <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
             <a
               href="https://discord.gg/QUsmwz4E77"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#5865F2] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 bg-[#5865F2] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
               style={{ color: '#ffffff' }}
             >
               디스코드 입장
