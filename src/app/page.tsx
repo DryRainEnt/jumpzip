@@ -207,10 +207,16 @@ export default function Home() {
           <h2 className="section-title">전시자</h2>
           <p className="section-subtitle">EXHIBITORS</p>
 
+          <div className="exhibitor-grid mb-6">
+            {Array.from({ length: 32 }, (_, i) => (
+              <div key={i} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
+                <div className="exhibitor-thumb" />
+                <p className="text-xs text-[#2b4c7e] py-1">전시자 {i + 1}</p>
+              </div>
+            ))}
+          </div>
+
           <div className="text-center">
-            <p className="text-[#2b4c7e] mb-6">
-              2026년 2-3월 전시자 모집 중
-            </p>
             <a
               href="https://forms.gle/6skgrpthuwPCDfhG7"
               target="_blank"
@@ -236,9 +242,9 @@ export default function Home() {
                 href="https://x.com/JumpZipOfficial"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#e63946] text-white px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+                className="inline-flex items-center gap-2 bg-[#1DA1F2] text-white px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               >
-                X (Twitter)
+                Twitter
               </a>
             </div>
           </div>
@@ -249,8 +255,22 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="p-8 md:p-12 text-center text-[#2b4c7e]">
-        <p>© 2026 점집 - Live Pixel Market</p>
+      <footer className="p-8 md:p-12 flex flex-col items-center text-[#2b4c7e]">
+        <div className="max-w-3xl w-full mb-6">
+          <h2 className="section-title">협력</h2>
+          <p className="section-subtitle">PARTNERS</p>
+          <div className="flex items-center justify-center gap-8">
+            <img src="/gamepinglogo.png" alt="게임핑" style={{ height: '102px' }} className="object-contain" />
+            <img src="/psychofluxlogo.gif" alt="사이코플럭스 엔터테인먼트" style={{ height: '154px' }} className="object-contain" />
+          </div>
+        </div>
+        <p className="text-center text-sm opacity-80 mb-4">© 2026 점집 - Live Pixel Market</p>
+        <div className="max-w-3xl w-full text-xs opacity-60 leading-relaxed">
+          <p>상호: 플레이타르트 | 대표: 이건우 | 사업자등록번호: 563-05-02993</p>
+          <p>통신판매업신고번호: 2025-서울성북-1324</p>
+          <p>주소: 서울특별시 성북구 장위로19길 25, 2동 403호</p>
+          <p>전화: 010-2896-0188 | 이메일: support@play-t.art</p>
+        </div>
       </footer>
     </main>
   );

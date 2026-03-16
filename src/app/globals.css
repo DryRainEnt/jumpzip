@@ -58,7 +58,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
+  margin-bottom: -0.25rem;
   color: var(--blue);
 }
 
