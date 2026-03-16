@@ -59,7 +59,7 @@ export default function Home() {
       <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-3">
           <div className="text-center">
-            <p className="text-sm text-[#2b4c7e] mb-2">신청 마감: ~3/16</p>
+            <p className="text-sm text-[#2b4c7e] mb-2">2차 신청 마감: 3월 30일</p>
             <a
               href="https://forms.gle/6skgrpthuwPCDfhG7"
               target="_blank"
@@ -79,7 +79,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-[#e63946] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
               style={{ color: '#ffffff' }}
             >
-              텀블벅 사전 알림 신청
+              텀블벅 후원하기
             </a>
           </div>
           <div className="text-center">
@@ -195,7 +195,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#ffffff' }}
             >
-              텀블벅 사전 알림 신청
+              텀블벅 후원하기
             </a>
           </div>
         </div>
