@@ -217,6 +217,7 @@ export default function Home() {
               { name: 'Pixel_dot', image: '/profiles/Pixel_dot.png' },
               { name: '아르페', image: '/profiles/아르페.jpg' },
               { name: 'Barend', image: '/profiles/Barend.png' },
+              { name: '이뿡식', image: '/profiles/이뿡식.jpg' },
             ];
             const totalSlots = 32;
             return (
