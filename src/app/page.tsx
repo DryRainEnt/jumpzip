@@ -215,6 +215,7 @@ export default function Home() {
               { name: '도트초보', image: '/profiles/도트초보.png' },
               { name: '마야골드', image: '/profiles/마야골드.png' },
               { name: 'Pixel_dot', image: '/profiles/Pixel_dot.png' },
+              { name: '아르페', image: '/profiles/아르페.jpg' },
             ];
             const totalSlots = 32;
             return (
