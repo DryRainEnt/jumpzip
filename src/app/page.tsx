@@ -216,6 +216,7 @@ export default function Home() {
               { name: '마야골드', image: '/profiles/마야골드.png' },
               { name: 'Pixel_dot', image: '/profiles/Pixel_dot.png' },
               { name: '아르페', image: '/profiles/아르페.jpg' },
+              { name: 'Barend', image: '/profiles/Barend.png' },
             ];
             const totalSlots = 32;
             return (
