@@ -227,13 +227,13 @@ export default function Home() {
                 {exhibitors.map((e) => (
                   <div key={e.name} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
                     <img src={e.image} alt={e.name} className="exhibitor-thumb" style={{ imageRendering: 'pixelated' }} />
-                    <p className="text-xs text-[#2b4c7e] py-1">{e.name}</p>
+                    <p className="text-base text-[#2b4c7e] py-1">{e.name}</p>
                   </div>
                 ))}
                 {Array.from({ length: totalSlots - exhibitors.length }, (_, i) => (
                   <div key={`empty-${i}`} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
                     <div className="exhibitor-thumb" />
-                    <p className="text-xs text-[#2b4c7e]/50 py-1">[공개예정]</p>
+                    <p className="text-base text-[#2b4c7e]/50 py-1">[공개예정]</p>
                   </div>
                 ))}
               </div>
