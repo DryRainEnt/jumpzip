@@ -207,14 +207,34 @@ export default function Home() {
           <h2 className="section-title">전시자</h2>
           <p className="section-subtitle">EXHIBITORS</p>
 
-          <div className="exhibitor-grid mb-6">
-            {Array.from({ length: 32 }, (_, i) => (
-              <div key={i} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
-                <div className="exhibitor-thumb" />
-                <p className="text-xs text-[#2b4c7e] py-1">전시자 {i + 1}</p>
+          {(() => {
+            const exhibitors = [
+              { name: '4분의1', image: '/profiles/4분의1.png' },
+              { name: 'Hadahada', image: '/profiles/Hadahada.jpg' },
+              { name: 'Resu', image: '/profiles/Resu.png' },
+              { name: '도트초보', image: '/profiles/도트초보.png' },
+              { name: '마야골드', image: '/profiles/마야골드.png' },
+              { name: 'Pixel_dot', image: '/profiles/Pixel_dot.png' },
+            ];
+            const totalSlots = 32;
+            return (
+              <div className="exhibitor-grid mb-6">
+                {exhibitors.map((e) => (
+                  <div key={e.name} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
+                    <img src={e.image} alt={e.name} className="exhibitor-thumb" style={{ imageRendering: 'pixelated' }} />
+                    <p className="text-xs text-[#2b4c7e] py-1">{e.name}</p>
+                  </div>
+                ))}
+                {Array.from({ length: totalSlots - exhibitors.length }, (_, i) => (
+                  <div key={`empty-${i}`} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
+                    <div className="exhibitor-thumb" />
+                    <p className="text-xs text-[#2b4c7e] py-1">&nbsp;</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            );
+          })()}
+
 
           <div className="text-center">
             <a
