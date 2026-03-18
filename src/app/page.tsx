@@ -218,6 +218,8 @@ export default function Home() {
               { name: '아르페', image: '/profiles/아르페.jpg' },
               { name: 'Barend', image: '/profiles/Barend.png' },
               { name: '이뿡식', image: '/profiles/이뿡식.jpg' },
+              { name: '미정', image: '/profiles/미정.png' },
+              { name: '알토스', image: '/profiles/알토스.png' },
             ];
             const totalSlots = 32;
             return (
