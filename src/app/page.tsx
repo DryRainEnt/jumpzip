@@ -231,7 +231,7 @@ export default function Home() {
                 {Array.from({ length: totalSlots - exhibitors.length }, (_, i) => (
                   <div key={`empty-${i}`} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
                     <div className="exhibitor-thumb" />
-                    <p className="text-xs text-[#2b4c7e] py-1">&nbsp;</p>
+                    <p className="text-xs text-[#2b4c7e]/50 py-1">[공개예정]</p>
                   </div>
                 ))}
               </div>
