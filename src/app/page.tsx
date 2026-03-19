@@ -220,6 +220,11 @@ export default function Home() {
               { name: '이뿡식', image: '/profiles/이뿡식.jpg' },
               { name: '미정', image: '/profiles/미정.png' },
               { name: '알토스', image: '/profiles/알토스.png' },
+              { name: 'All Day Jam', image: '/profiles/All Day Jam.png' },
+              { name: 'Twintooth 쌍생치', image: '/profiles/Twintooth 쌍생치.png' },
+              { name: 'ZIK', image: '/profiles/ZIK.png' },
+              { name: '박박스', image: '/profiles/박박스.png' },
+              { name: '베네수엘라푸들나방', image: '/profiles/베네수엘라푸들나방.png' },
             ];
             const totalSlots = 32;
             return (
