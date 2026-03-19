@@ -224,7 +224,7 @@ export default function Home() {
               { name: 'Twintooth 쌍생치', image: '/profiles/Twintooth 쌍생치.png' },
               { name: 'ZIK', image: '/profiles/ZIK.png' },
               { name: '박박스', image: '/profiles/박박스.png' },
-              { name: '베네수엘라푸들나방', image: '/profiles/베네수엘라푸들나방.png' },
+              { name: '베네수엘라 푸들나방', image: '/profiles/베네수엘라 푸들나방.png' },
             ];
             const totalSlots = 32;
             return (
