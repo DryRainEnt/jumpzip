@@ -225,6 +225,9 @@ export default function Home() {
               { name: 'ZIK', image: '/profiles/ZIK.png' },
               { name: '박박스', image: '/profiles/박박스.png' },
               { name: '베네수엘라 푸들나방', image: '/profiles/베네수엘라 푸들나방.png' },
+              { name: 'Yong', image: '/profiles/Yong.png' },
+              { name: '빗빛', image: '/profiles/빗빛.png' },
+              { name: '슬프다맨', image: '/profiles/슬프다맨.png' },
             ];
             const totalSlots = 32;
             return (
