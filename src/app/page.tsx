@@ -230,6 +230,9 @@ export default function Home() {
               { name: '슬프다맨', image: '/profiles/슬프다맨.png' },
               { name: '화소', image: '/profiles/화소.png' },
               { name: 'MKstudio', image: '/profiles/MKstudio.png' },
+              { name: 'wipel의플', image: '/profiles/wipel의플.png' },
+              { name: '도곡동핵주먹', image: '/profiles/도곡동핵주먹.jpg' },
+              { name: '도도앤디드', image: '/profiles/도도앤디드.png' },
             ];
             const totalSlots = 32;
             return (
