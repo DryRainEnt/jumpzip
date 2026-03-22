@@ -229,6 +229,7 @@ export default function Home() {
               { name: '빗빛', image: '/profiles/빗빛.png' },
               { name: '슬프다맨', image: '/profiles/슬프다맨.png' },
               { name: '화소', image: '/profiles/화소.png' },
+              { name: 'MKstudio', image: '/profiles/MKstudio.png' },
             ];
             const totalSlots = 32;
             return (
