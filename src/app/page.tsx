@@ -59,16 +59,13 @@ export default function Home() {
       <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-3">
           <div className="text-center">
-            <p className="text-sm text-[#2b4c7e] mb-2">2차 신청 마감: 3월 30일</p>
-            <a
-              href="https://forms.gle/6skgrpthuwPCDfhG7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
+            <p className="text-sm text-[#2b4c7e] mb-2">마감되었습니다</p>
+            <span
+              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-4 py-3 font-bold opacity-40 whitespace-nowrap cursor-not-allowed"
               style={{ color: '#f5e6a3' }}
             >
               전시 참가 신청
-            </a>
+            </span>
           </div>
           <div className="text-center">
             <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
@@ -255,15 +252,12 @@ export default function Home() {
 
 
           <div className="text-center">
-            <a
-              href="https://forms.gle/6skgrpthuwPCDfhG7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+            <span
+              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold opacity-40 cursor-not-allowed"
               style={{ color: '#f5e6a3' }}
             >
-              전시 참가 신청
-            </a>
+              전시 참가 신청 마감
+            </span>
           </div>
         </div>
       </section>
