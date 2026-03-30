@@ -68,7 +68,7 @@ export default function Home() {
             </span>
           </div>
           <div className="text-center">
-            <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
+            <p className="text-sm text-[#e63946] mb-2">펀딩 114% 달성!</p>
             <a
               href="https://tum.bg/WDKqih"
               target="_blank"
@@ -76,7 +76,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-[#e63946] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
               style={{ color: '#ffffff' }}
             >
-              텀블벅 후원하기
+              펀딩 마감
             </a>
           </div>
           <div className="text-center">
@@ -184,7 +184,8 @@ export default function Home() {
           <p className="section-subtitle">FUNDING</p>
 
           <div className="text-center">
-            <img src="/head_image.png" alt="점집 펀딩 포스터" className="w-full max-w-md mx-auto mb-6" style={{ imageRendering: 'pixelated' }} />
+            <img src="/head_image.png" alt="점집 펀딩 포스터" className="w-full max-w-md mx-auto mb-4" style={{ imageRendering: 'pixelated' }} />
+            <p className="text-[#e63946] font-bold mb-4">펀딩 114% 달성!</p>
             <a
               href="https://tum.bg/WDKqih"
               target="_blank"
@@ -192,7 +193,7 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#ffffff' }}
             >
-              텀블벅 후원하기
+              펀딩 마감
             </a>
           </div>
         </div>
