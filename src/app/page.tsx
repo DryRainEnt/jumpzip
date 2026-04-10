@@ -57,38 +57,52 @@ export default function Home() {
 
       {/* CTA Bar */}
       <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
-        <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-3">
-          <div className="text-center">
-            <p className="text-sm text-[#2b4c7e] mb-2">마감되었습니다</p>
-            <span
-              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-4 py-3 font-bold opacity-40 whitespace-nowrap cursor-not-allowed"
-              style={{ color: '#f5e6a3' }}
-            >
-              전시 참가 신청
-            </span>
+        <div className="max-w-3xl w-full flex flex-col gap-3">
+          <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex-1 text-center">
+              <p className="text-sm text-[#2b4c7e] mb-2">마감되었습니다</p>
+              <span
+                className="block w-full bg-[#2b4c7e] px-4 py-3 font-bold opacity-40 whitespace-nowrap cursor-not-allowed"
+                style={{ color: '#f5e6a3' }}
+              >
+                전시 참가 신청
+              </span>
+            </div>
+            <div className="flex-1 text-center">
+              <p className="text-sm text-[#0f1f3a] mb-2">펀딩 114% 달성!</p>
+              <a
+                href="https://tum.bg/WDKqih"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-[#0f1f3a] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
+                style={{ color: '#ffffff' }}
+              >
+                펀딩 마감
+              </a>
+            </div>
+            <div className="flex-1 text-center">
+              <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
+              <a
+                href="https://discord.gg/QUsmwz4E77"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-[#5865F2] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
+                style={{ color: '#ffffff' }}
+              >
+                디스코드 입장
+              </a>
+            </div>
           </div>
           <div className="text-center">
-            <p className="text-sm text-[#e63946] mb-2">펀딩 114% 달성!</p>
+            <p className="text-sm text-[#e63946] mb-1">4월 24일 마감</p>
             <a
-              href="https://tum.bg/WDKqih"
+              href="https://witchform.com/payform/LKOD7UUCAL"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e63946] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
+              className="block w-full bg-[#e63946] px-4 py-2 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#ffffff' }}
             >
-              펀딩 마감
-            </a>
-          </div>
-          <div className="text-center">
-            <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
-            <a
-              href="https://discord.gg/QUsmwz4E77"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#5865F2] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
-              style={{ color: '#ffffff' }}
-            >
-              디스코드 입장
+              앤솔로지 사전구매
             </a>
           </div>
         </div>
@@ -185,15 +199,29 @@ export default function Home() {
 
           <div className="text-center">
             <img src="/head_image.png" alt="점집 펀딩 포스터" className="w-full max-w-md mx-auto mb-4" style={{ imageRendering: 'pixelated' }} />
-            <p className="text-[#e63946] font-bold mb-4">펀딩 114% 달성!</p>
+            <p className="text-[#0f1f3a] font-bold mb-4">펀딩 114% 달성!</p>
             <a
               href="https://tum.bg/WDKqih"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#0f1f3a] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+              style={{ color: '#ffffff' }}
+            >
+              펀딩 마감
+            </a>
+          </div>
+
+          <div className="text-center mt-12">
+            <img src="/anthology_preview.png" alt="점집 아트북 제 1편 - 판" className="w-full max-w-md mx-auto mb-4" style={{ imageRendering: 'pixelated' }} />
+            <p className="text-[#e63946] font-bold mb-4">4월 24일 마감</p>
+            <a
+              href="https://witchform.com/payform/LKOD7UUCAL"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#ffffff' }}
             >
-              펀딩 마감
+              앤솔로지 사전구매
             </a>
           </div>
         </div>
