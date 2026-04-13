@@ -172,7 +172,7 @@ export default function Home() {
           <p className="section-subtitle">HALL MAP</p>
 
           <div className="content-box">
-            <img src="/1289BUNKERx3.png" alt="회장 배치도 - B1F, B2F" className="w-full" style={{ imageRendering: 'pixelated' }} />
+            <img src="/booth_layout.png" alt="부스 배치도 - B1F, B2F" className="w-full" style={{ imageRendering: 'pixelated' }} />
             <div className="mt-4">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
                 <p className="text-sm">서울 용산구 이태원로 174 지하 1층</p>
@@ -187,6 +187,72 @@ export default function Home() {
               </div>
               <KakaoMap />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Exhibitors */}
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <h2 className="section-title">전시자</h2>
+          <p className="section-subtitle">EXHIBITORS</p>
+
+          {(() => {
+            const exhibitors = [
+              { booth: '2', name: '알토스', image: '/profiles/알토스.png' },
+              { booth: '3', name: '도트초보', image: '/profiles/도트초보.png' },
+              { booth: '4', name: '슬프다맨', image: '/profiles/슬프다맨.png' },
+              { booth: '5', name: 'wipel의플', image: '/profiles/wipel의플.png' },
+              { booth: '6-7', name: 'Twintooth 쌍생치', image: '/profiles/Twintooth 쌍생치.png' },
+              { booth: '8-9', name: '빗빛', image: '/profiles/빗빛.png' },
+              { booth: '10', name: 'Wheezy', image: '/profiles/Wheezy.png' },
+              { booth: '11', name: 'Ngo Elize Hoa Tran', image: '/profiles/Elise Ngo.png' },
+              { booth: '12', name: '도도앤디드', image: '/profiles/도도앤디드.png' },
+              { booth: '13', name: 'Barend', image: '/profiles/Barend.png' },
+              { booth: '14', name: 'Resu', image: '/profiles/Resu.png' },
+              { booth: '15', name: 'Pixel_dot', image: '/profiles/Pixel_dot.png' },
+              { booth: '16', name: '화소', image: '/profiles/화소.png' },
+              { booth: '17', name: '베네수엘라 푸들나방', image: '/profiles/베네수엘라 푸들나방.png' },
+              { booth: '18', name: '박박스', image: '/profiles/박박스.png' },
+              { booth: '19', name: '아크네르', image: null },
+              { booth: '20', name: '미정', image: '/profiles/미정.png' },
+              { booth: '21', name: '4분의1', image: '/profiles/4분의1.png' },
+              { booth: '22', name: 'EB', image: null },
+              { booth: '23', name: 'All Day Jam', image: '/profiles/All Day Jam.png' },
+              { booth: '25', name: '이뿡식', image: '/profiles/이뿡식.jpg' },
+              { booth: '26', name: '마야골드', image: '/profiles/마야골드.png' },
+              { booth: '27', name: '아르페', image: '/profiles/아르페.jpg' },
+              { booth: '28', name: 'MKstudio', image: '/profiles/MKstudio.png' },
+              { booth: '29', name: 'ZIK', image: '/profiles/ZIK.png' },
+              { booth: '30', name: 'Yong', image: '/profiles/Yong.png' },
+              { booth: '31', name: 'Hadahada', image: '/profiles/Hadahada.jpg' },
+            ];
+            return (
+              <div className="exhibitor-grid mb-6">
+                {exhibitors.map((e) => (
+                  <div key={e.name} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
+                    {e.image ? (
+                      <img src={e.image} alt={e.name} className="exhibitor-thumb" style={{ imageRendering: 'pixelated' }} />
+                    ) : (
+                      <div className="exhibitor-thumb" />
+                    )}
+                    <p className="text-base text-[#2b4c7e] py-1">
+                      <span className="font-bold mr-1">{e.booth}.</span>{e.name}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            );
+          })()}
+
+
+          <div className="text-center">
+            <span
+              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold opacity-40 cursor-not-allowed"
+              style={{ color: '#f5e6a3' }}
+            >
+              전시 참가 신청 마감
+            </span>
           </div>
         </div>
       </section>
@@ -223,70 +289,6 @@ export default function Home() {
             >
               앤솔로지 사전구매
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Exhibitors */}
-      <section className="p-8 md:p-12 flex justify-center">
-        <div className="max-w-3xl w-full">
-          <h2 className="section-title">전시자</h2>
-          <p className="section-subtitle">EXHIBITORS</p>
-
-          {(() => {
-            const exhibitors = [
-              { name: '4분의1', image: '/profiles/4분의1.png' },
-              { name: 'Hadahada', image: '/profiles/Hadahada.jpg' },
-              { name: 'Resu', image: '/profiles/Resu.png' },
-              { name: '도트초보', image: '/profiles/도트초보.png' },
-              { name: '마야골드', image: '/profiles/마야골드.png' },
-              { name: 'Pixel_dot', image: '/profiles/Pixel_dot.png' },
-              { name: '아르페', image: '/profiles/아르페.jpg' },
-              { name: 'Barend', image: '/profiles/Barend.png' },
-              { name: '이뿡식', image: '/profiles/이뿡식.jpg' },
-              { name: '미정', image: '/profiles/미정.png' },
-              { name: '알토스', image: '/profiles/알토스.png' },
-              { name: 'All Day Jam', image: '/profiles/All Day Jam.png' },
-              { name: 'Twintooth 쌍생치', image: '/profiles/Twintooth 쌍생치.png' },
-              { name: 'ZIK', image: '/profiles/ZIK.png' },
-              { name: '박박스', image: '/profiles/박박스.png' },
-              { name: '베네수엘라 푸들나방', image: '/profiles/베네수엘라 푸들나방.png' },
-              { name: 'Yong', image: '/profiles/Yong.png' },
-              { name: '빗빛', image: '/profiles/빗빛.png' },
-              { name: '슬프다맨', image: '/profiles/슬프다맨.png' },
-              { name: '화소', image: '/profiles/화소.png' },
-              { name: 'MKstudio', image: '/profiles/MKstudio.png' },
-              { name: 'wipel의플', image: '/profiles/wipel의플.png' },
-
-              { name: '도도앤디드', image: '/profiles/도도앤디드.png' },
-            ];
-            const totalSlots = 32;
-            return (
-              <div className="exhibitor-grid mb-6">
-                {exhibitors.map((e) => (
-                  <div key={e.name} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
-                    <img src={e.image} alt={e.name} className="exhibitor-thumb" style={{ imageRendering: 'pixelated' }} />
-                    <p className="text-base text-[#2b4c7e] py-1">{e.name}</p>
-                  </div>
-                ))}
-                {Array.from({ length: totalSlots - exhibitors.length }, (_, i) => (
-                  <div key={`empty-${i}`} className="bg-[#fff8d6] border border-[#2b4c7e]/20 text-center">
-                    <div className="exhibitor-thumb" />
-                    <p className="text-base text-[#2b4c7e]/50 py-1">[공개예정]</p>
-                  </div>
-                ))}
-              </div>
-            );
-          })()}
-
-
-          <div className="text-center">
-            <span
-              className="inline-flex items-center gap-2 bg-[#2b4c7e] px-6 py-3 font-bold opacity-40 cursor-not-allowed"
-              style={{ color: '#f5e6a3' }}
-            >
-              전시 참가 신청 마감
-            </span>
           </div>
         </div>
       </section>
