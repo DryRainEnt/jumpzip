@@ -214,7 +214,7 @@ export default function Home() {
               { booth: '16', name: '화소', image: '/profiles/화소.png' },
               { booth: '17', name: '베네수엘라 푸들나방', image: '/profiles/베네수엘라 푸들나방.png' },
               { booth: '18', name: '박박스', image: '/profiles/박박스.png' },
-              { booth: '19', name: '아크네르', image: null },
+              { booth: '19', name: '아크네르', image: '/profiles/아크네르.png' },
               { booth: '20', name: '미정', image: '/profiles/미정.png' },
               { booth: '21', name: '4분의1', image: '/profiles/4분의1.png' },
               { booth: '22', name: 'EB', image: null },
