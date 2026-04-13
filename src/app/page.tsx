@@ -206,7 +206,7 @@ export default function Home() {
               { booth: '6-7', name: 'Twintooth 쌍생치', image: '/profiles/Twintooth 쌍생치.png' },
               { booth: '8-9', name: '빗빛', image: '/profiles/빗빛.png' },
               { booth: '10', name: 'Wheezy', image: '/profiles/Wheezy.png' },
-              { booth: '11', name: 'Ngo Elize Hoa Tran', image: '/profiles/Elise Ngo.png' },
+              { booth: '11', name: 'Ngo Elize Hoa Tran', image: '/profiles/Elise.png' },
               { booth: '12', name: '도도앤디드', image: '/profiles/도도앤디드.png' },
               { booth: '13', name: 'Barend', image: '/profiles/Barend.png' },
               { booth: '14', name: 'Resu', image: '/profiles/Resu.png' },
