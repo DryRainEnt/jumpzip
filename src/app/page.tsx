@@ -320,7 +320,7 @@ export default function Home() {
         <div className="max-w-3xl w-full mb-6">
           <h2 className="section-title">협력</h2>
           <p className="section-subtitle">PARTNERS</p>
-          <div className="flex items-center justify-center gap-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
             <img src="/gamepinglogo.png" alt="게임핑" style={{ height: '102px' }} className="object-contain" />
             <img src="/psychofluxlogo.gif" alt="사이코플럭스 엔터테인먼트" style={{ height: '154px' }} className="object-contain" />
           </div>
