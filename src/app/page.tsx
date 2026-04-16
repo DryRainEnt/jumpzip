@@ -257,6 +257,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* DJ Lineup */}
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <h2 className="section-title">디제잉 세션</h2>
+          <p className="section-subtitle">DJ LINEUP</p>
+
+          <div className="text-center">
+            <img src="/DJ Lineup.png" alt="2026 점집 디제잉 세션 GOOD PAN - DJ Lineup" className="w-full max-w-md mx-auto" style={{ imageRendering: 'pixelated' }} />
+          </div>
+        </div>
+      </section>
+
       {/* Funding */}
       <section className="p-8 md:p-12 flex justify-center">
         <div className="max-w-3xl w-full">
