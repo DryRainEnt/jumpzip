@@ -264,7 +264,7 @@ export default function Home() {
           <p className="section-subtitle">DJ LINEUP</p>
 
           <div className="text-center">
-            <img src="/DJ Lineup.png" alt="2026 점집 디제잉 세션 GOOD PAN - DJ Lineup" className="w-full max-w-md mx-auto" style={{ imageRendering: 'pixelated' }} />
+            <img src="/DJ Lineup.png" alt="2026 점집 디제잉 세션 GOOD PAN - DJ Lineup" className="w-full max-w-2xl mx-auto" style={{ imageRendering: 'pixelated' }} />
           </div>
         </div>
       </section>
