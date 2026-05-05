@@ -10,41 +10,34 @@ export default function Home() {
         <div className="w-2 md:w-3 bg-[#2b4c7e]"></div>
       </div>
       {/* Hero Section - Full Width Image with Overlay */}
-      <section className="relative min-h-screen w-full">
+      <section className="relative h-[60vh] md:h-[70vh] w-full">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img src="/DosaGirlLanding.png" alt="메인 비주얼" className="w-full h-full object-cover" />
         </div>
 
         {/* Overlay Content */}
-        <div className="relative z-10 min-h-screen flex flex-col justify-between py-8 md:py-12 px-8 md:px-24 lg:px-32">
+        <div className="relative z-10 h-full flex flex-col justify-between py-6 md:py-8 px-8 md:px-24 lg:px-32">
           {/* Top Left - Title */}
           <div className="text-left">
-            <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.85] drop-shadow-lg">
+            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[0.85] drop-shadow-lg">
               LIVE<br />
               PIXEL<br />
               MARKET
             </p>
-            <div className="inline-block mt-4">
-              <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] font-bold leading-none text-white drop-shadow-lg">
+            <div className="inline-block mt-3">
+              <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-bold leading-none text-white drop-shadow-lg">
                 점집
               </h1>
-              <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mt-2 drop-shadow-lg text-right">
+              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-1 drop-shadow-lg text-right">
                 JUMPZIP
               </p>
             </div>
           </div>
 
-          {/* Bottom Right - Info */}
+          {/* Bottom Right - Tagline */}
           <div className="text-right text-white">
-            <div className="space-y-1 mb-6">
-              <p className="text-xl md:text-2xl">2026.04.25 - 26</p>
-              <p className="text-xl md:text-2xl">이태원 1289BUNKER</p>
-              <p className="text-xl md:text-2xl">10:00 - 18:00</p>
-              <p className="text-xl md:text-2xl">입장료 ₩10,000</p>
-            </div>
-
-            <div className="max-w-md ml-auto text-white/80 space-y-1">
+            <div className="max-w-md ml-auto text-white/80 space-y-1 text-sm md:text-base">
               <p>형형색색의 간판</p>
               <p>오고가는 대화 소리</p>
               <p>울려 퍼지는 멜로디</p>
@@ -55,56 +48,47 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Recap Video */}
+      <section className="px-8 py-6 md:px-12 md:py-8 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <div className="aspect-video w-full">
+            <iframe
+              src="https://www.youtube.com/embed/UdEgTilabhw"
+              title="점집 1회 회고 영상"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Next Edition Teaser */}
+      <section className="px-8 py-12 md:px-12 md:py-16 flex justify-center">
+        <div className="max-w-3xl w-full text-center">
+          <p className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#2b4c7e] leading-tight">2026.10</p>
+          <p className="text-xl sm:text-2xl md:text-3xl text-[#2b4c7e]/70 mt-2 tracking-widest">COMING SOON...</p>
+        </div>
+      </section>
+
       {/* CTA Bar */}
       <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
-        <div className="max-w-3xl w-full flex flex-col gap-3">
-          <div className="flex flex-col sm:flex-row gap-3">
-            <div className="flex-1 text-center">
-              <p className="text-sm text-[#2b4c7e] mb-2">마감되었습니다</p>
-              <span
-                className="block w-full bg-[#2b4c7e] px-4 py-3 font-bold opacity-40 whitespace-nowrap cursor-not-allowed"
-                style={{ color: '#f5e6a3' }}
-              >
-                전시 참가 신청
-              </span>
-            </div>
-            <div className="flex-1 text-center">
-              <p className="text-sm text-[#0f1f3a] mb-2">펀딩 114% 달성!</p>
-              <a
-                href="https://tum.bg/WDKqih"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-[#0f1f3a] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
-                style={{ color: '#ffffff' }}
-              >
-                펀딩 마감
-              </a>
-            </div>
-            <div className="flex-1 text-center">
-              <p className="text-sm text-[#2b4c7e] mb-2">&nbsp;</p>
-              <a
-                href="https://discord.gg/QUsmwz4E77"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-[#5865F2] px-4 py-3 font-bold hover:opacity-90 transition-opacity whitespace-nowrap"
-                style={{ color: '#ffffff' }}
-              >
-                디스코드 입장
-              </a>
-            </div>
-          </div>
-          <div className="text-center">
-            <p className="text-sm text-[#e63946] mb-1">4월 24일 마감</p>
-            <a
-              href="https://witchform.com/payform/LKOD7UUCAL"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full bg-[#e63946] px-4 py-2 font-bold hover:opacity-90 transition-opacity"
-              style={{ color: '#ffffff' }}
-            >
-              앤솔로지 사전구매
-            </a>
-          </div>
+        <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-3">
+          <span
+            className="flex-1 text-center bg-[#e63946] px-4 py-3 font-bold opacity-40 cursor-not-allowed"
+            style={{ color: '#ffffff' }}
+          >
+            앤솔로지 구매 준비 중
+          </span>
+          <a
+            href="https://discord.gg/QUsmwz4E77"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 text-center bg-[#5865F2] px-4 py-3 font-bold hover:opacity-90 transition-opacity"
+            style={{ color: '#ffffff' }}
+          >
+            디스코드 입장
+          </a>
         </div>
       </section>
 
@@ -291,16 +275,13 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <img src="/anthology_preview.png" alt="점집 아트북 제 1편 - 판" className="w-full max-w-md mx-auto mb-4" style={{ imageRendering: 'pixelated' }} />
-            <p className="text-[#e63946] font-bold mb-4">4월 24일 마감</p>
-            <a
-              href="https://witchform.com/payform/LKOD7UUCAL"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
+            <p className="text-[#e63946] font-bold mb-4">상시 판매 준비 중</p>
+            <span
+              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold opacity-40 cursor-not-allowed"
               style={{ color: '#ffffff' }}
             >
-              앤솔로지 사전구매
-            </a>
+              앤솔로지 구매 준비 중
+            </span>
           </div>
         </div>
       </section>
