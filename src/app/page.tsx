@@ -293,7 +293,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <img src="/anthology_preview.png" alt="점집 아트북 제 1편 - 판" className="w-full max-w-md mx-auto mb-4" style={{ imageRendering: 'pixelated' }} />
+            <img src="/anthology_preview.jpg" alt="점집 아트북 제 1편 - 판 (한국 픽셀아티스트 앤솔로지)" className="w-full max-w-md mx-auto mb-4" />
             <p className="text-[#e63946] font-bold mb-4">상시 판매 중</p>
             <a
               href="https://witchform.com/payform/?uuid=TRTLYUTPJE"
