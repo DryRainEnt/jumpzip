@@ -42,3 +42,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 행사 원본 사진 (약 1.3GB) — 저장소/배포에 포함하지 않음. 웹용 리사이즈본만 커밋
+/public/26 04 25-26 Jumpzip/

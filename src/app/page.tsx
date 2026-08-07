@@ -74,12 +74,15 @@ export default function Home() {
       {/* CTA Bar */}
       <section className="px-8 py-4 md:px-12 md:py-6 flex justify-center">
         <div className="max-w-3xl w-full flex flex-col sm:flex-row gap-3">
-          <span
-            className="flex-1 text-center bg-[#e63946] px-4 py-3 font-bold opacity-40 cursor-not-allowed"
+          <a
+            href="https://witchform.com/payform/?uuid=TRTLYUTPJE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 text-center bg-[#e63946] px-4 py-3 font-bold hover:opacity-90 transition-opacity"
             style={{ color: '#ffffff' }}
           >
-            앤솔로지 구매 준비 중
-          </span>
+            앤솔로지 구매하기
+          </a>
           <a
             href="https://discord.gg/QUsmwz4E77"
             target="_blank"
@@ -275,13 +278,16 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <img src="/anthology_preview.png" alt="점집 아트북 제 1편 - 판" className="w-full max-w-md mx-auto mb-4" style={{ imageRendering: 'pixelated' }} />
-            <p className="text-[#e63946] font-bold mb-4">상시 판매 준비 중</p>
-            <span
-              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold opacity-40 cursor-not-allowed"
+            <p className="text-[#e63946] font-bold mb-4">상시 판매 중</p>
+            <a
+              href="https://witchform.com/payform/?uuid=TRTLYUTPJE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#e63946] px-6 py-3 font-bold hover:opacity-90 transition-opacity"
               style={{ color: '#ffffff' }}
             >
-              앤솔로지 구매 준비 중
-            </span>
+              앤솔로지 구매하기
+            </a>
           </div>
         </div>
       </section>
