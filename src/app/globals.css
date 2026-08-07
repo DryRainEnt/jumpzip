@@ -84,6 +84,29 @@ body {
   display: block;
 }
 
+/* 현장 갤러리 */
+.gallery-grid {
+  columns: 2;
+  column-gap: 4px;
+}
+
+@media (min-width: 768px) {
+  .gallery-grid {
+    columns: 3;
+  }
+}
+
+.gallery-grid a {
+  display: block;
+  break-inside: avoid;
+  margin-bottom: 4px;
+}
+
+.gallery-grid img {
+  display: block;
+  width: 100%;
+}
+
 /* 링크 */
 a {
   color: inherit;

@@ -63,6 +63,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Recap Gallery */}
+      <section className="p-8 md:p-12 flex justify-center">
+        <div className="max-w-3xl w-full">
+          <h2 className="section-title">1회 현장</h2>
+          <p className="section-subtitle">RECAP 2026.04.25–26</p>
+
+          <div className="gallery-grid">
+            {Array.from({ length: 18 }, (_, i) => String(i + 1).padStart(2, '0')).map((n) => (
+              <a key={n} href={`/gallery/full/${n}.jpg`} target="_blank" rel="noopener noreferrer">
+                <img src={`/gallery/${n}.jpg`} alt={`점집 1회 현장 사진 ${n}`} loading="lazy" />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Next Edition Teaser */}
       <section className="px-8 py-12 md:px-12 md:py-16 flex justify-center">
         <div className="max-w-3xl w-full text-center">
